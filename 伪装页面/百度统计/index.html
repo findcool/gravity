@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1200, initial-scale=1, maximum-scale=1">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <title>百度统计——最大的中文网站分析平台</title>
+    <link href="/web/css/homepage_layout.css?__v=1596019163464" rel="stylesheet" type="text/css" media="all" />
+    
+    <link href="/web/css/login.css?__v=1596019163464" rel="stylesheet" type="text/css" media="all" />
+
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?41fc030db57d5570dd22f78997dc4a7e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+    <div class="homepage-header-wrapper">
+    <div class="l logo">
+        <a class="logo-link" href="https://tongji.baidu.com"><img src="/web/image/homepage_logo.png?__v=1596019163464" alt="百度统计" /></a>
+    </div>
+    <div class="r homepage-header-user-info">
+                <a href="javascript:void(0)" class="login-btn visitor-btn" id="login">登录</a>
+        <a href="javascript:void(0)" class="register-btn visitor-btn" id="register">注册</a>
+        <a href="/web/demo/overview/index?siteId=5503017" class="demo-btn visitor-btn">体验 Demo</a>
+            </div>
+    <div class="homepage-header-nav">
+        <div class="nav-item">
+            <a href="/web/welcome/login" class="nav-item-label">首页</a>
+        </div>
+        <div class="nav-item">
+            <a href="#" class="nav-item-label hp-drop-trigger">产品与服务</a>
+            <div class="sub-nav sub-nav-alt ease-in-height  hp-drop-content">
+                <div class="nav-">
+                    <div class="sub-nav-item l">
+                        <div class="sub-nav-title">产品</div>
+                        <ul>
+                            <li><a href="/web/welcome/basic">网站统计</a></li>
+                            <li><a href="https://mtj.baidu.com" target="_blank">移动统计</a></li>
+                            <li><a href="/web/welcome/analytics">分析云<span class="nav-new icon-font"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="sub-nav-item l">
+                        <div class="sub-nav-title">配套服务</div>
+                        <ul>
+                            <li><a href="https://retail.baidu.com/?hmsr=%E7%BB%9F%E8%AE%A1%E4%BA%A7%E5%93%81%E5%85%A5%E5%8F%A3&hmpl=product&hmcu=&hmkw=&hmci=" target="_blank">零售解决方案</a></li>
+                            <li><a href="https://tongji.baidu.com/open/" target="_blank">统计开放平台</a></li>
+                            <li><a href="https://tongji.baidu.com/research/site?hmsr=%E7%BB%9F%E8%AE%A1%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1%E9%93%BE%E6%8E%A5%E5%85%A5%E5%8F%A3&hmpl=%E7%BB%9F%E8%AE%A1%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1%E9%93%BE%E6%8E%A5%E5%85%A5%E5%8F%A3&hmcu=%E7%BB%9F%E8%AE%A1%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1%E9%93%BE%E6%8E%A5%E5%85%A5%E5%8F%A3&hmkw=&hmci=%E7%BB%9F%E8%AE%A1%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1%E9%93%BE%E6%8E%A5%E5%85%A5%E5%8F%A3" target="_blank">流量研究院<span class="nav-new icon-font"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="/web/welcome/cases" class="nav-item-label">成功案例</a>
+        </div>
+        <div class="nav-item">
+            <a href="#" class="nav-item-label">帮助与支持</a>
+            <div class="sub-nav ease-in-height  hp-drop-content">
+                <ul>
+                    <li><a href="//tongji.baidu.com/web/help/index?from=2" target="_blank">网站统计帮助中心</a></li>
+                    <li><a href="https://tongji.baidu.com/api/manual/" target="_blank">网站统计API手册</a></li>
+                    <li><a href="https://tongji.baidu.com/analytics-manual/" target="_blank">分析云产品手册<span class="nav-new icon-font"></span></a></li>
+                    <li><a href="/web/welcome/video" target="_blank">分析云视频学习</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="/web/welcome/media" class="nav-item-label">媒体中心</a>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="constent">
+            <!-- 内容区块开始 -->
+            
+<div id="SlidesInteractive" class="slide">
+    <div id="SlidesContainer">
+        <div id="SliderLoading">loading...</div>
+        <div id="Slider" style="position: absolute; left: 0px; top: 0px;"></div>
+        <div class="slider-btn clearfix" style="opacity: 0.85;">
+            <div id="SliderBtn" class="slider-btn-control"></div>
+        </div>
+    </div>
+</div>
+<div class="hp-whole-row hp-latest-news">
+    <div class="hp-latest-news-detail">
+                <div class="hp-latest-news-item l ">
+            <a href="https://mtj.baidu.com/web/welcome/media?detail=3" target="_blank">
+                <div class="hp-latest-news-item-title ellipsis" title="移动统计全新推出APP端热力图">移动统计全新推出APP端热力图</div>
+                <div class="hp-latest-news-item-body ellipsis" title="借助热力图，可以直观地观察到用户的总体访问情况和点击偏好">借助热力图，可以直观地观察到用户的总体访问情况和点击偏好</div>
+            </a>
+        </div>
+                <div class="hp-latest-news-item l ">
+            <a href="https://tongji.baidu.com/web/welcome/media?detail=25" target="_blank">
+                <div class="hp-latest-news-item-title ellipsis" title="百度统计分析云平台全新上线">百度统计分析云平台全新上线</div>
+                <div class="hp-latest-news-item-body ellipsis" title="数据采集、接入、建模、应用的整体分析解决方案">数据采集、接入、建模、应用的整体分析解决方案</div>
+            </a>
+        </div>
+                <div class="hp-latest-news-item l last">
+            <a href="https://aipage.bce.baidu.com/huodongtongji" target="_blank">
+                <div class="hp-latest-news-item-title ellipsis" title="百度统计用户专享福利！">百度统计用户专享福利！</div>
+                <div class="hp-latest-news-item-body ellipsis" title="限时免费领取“网站+小程序”五合一建站系统">限时免费领取“网站+小程序”五合一建站系统</div>
+            </a>
+        </div>
+            </div>
+</div>
+<div class="hp-row hp-products">
+    <div class="hp-row-content hp-products-detail">
+        <div class="hp-products-title">
+            <div class="hp-first-title">全面的配套产品与服务</div>
+            <div class="hp-second-title">集合网站、APP、小程序和线下零售统计，汇聚成全面的数据分析平台</div>
+        </div>
+        <div class="hp-products-content">
+            <div class="hp-products-content-item l">
+                <div class="hp-products-content-item-logo">
+                    <img src="/web/image/product-cloud.png?__v=1596019163464" alt="分析云" />
+                </div>
+                <div class="hp-products-content-item-title">分析云</div>
+                <div class="hp-products-content-item-desc">基于百度大数据能力，实现全域数据自动化采集、融合多种模型算法，赋能企业深入分析洞察用户行为的SaaS分析平台。</div>
+                <div class="hp-products-content-item-opts">
+                    <a href="https://tongji.baidu.com/analytics/demo?siteId=5503017"><span>体验 Demo</span><em></em></a>
+                </div>
+            </div>
+            <div class="hp-products-content-item l">
+                <div class="hp-products-content-item-logo">
+                    <img src="/web/image/product-hm.png?__v=1596019163464" alt="网站统计" />
+                </div>
+                <div class="hp-products-content-item-title">网站统计</div>
+                <div class="hp-products-content-item-desc">全球领先的中文网站流量分析平台，为网站的精细化运营决策提供数据支持，进而有效提高企业的投资回报率。</div>
+                <div class="hp-products-content-item-opts">
+                    <a href="/web/demo/overview/index?siteId=5503017"><span>体验 Demo</span><em></em></a>
+                </div>
+            </div>
+            <div class="hp-products-content-item l">
+                <div class="hp-products-content-item-logo">
+                    <img src="/web/image/product-mtj.png?__v=1596019163464" alt="移动统计" />
+                </div>
+                <div class="hp-products-content-item-title">移动统计</div>
+                <div class="hp-products-content-item-desc">业界领先的免费APP、小程序统计分析工具，轻量SDK快速部署，全面监测产品表现，准确洞察用户行为。</div>
+                <div class="hp-products-content-item-opts">
+                    <a href="https://mtj.baidu.com/web/demo/overview?appId=468475" target="_blank"><span>体验 Demo</span><em></em></a>
+                </div>
+            </div>
+            <div class="hp-products-content-item l last">
+                <div class="hp-products-content-item-logo">
+                    <img src="/web/image/product-offline.png?__v=1596019163464" alt="零售解决方案" />
+                </div>
+                <div class="hp-products-content-item-title">零售解决方案</div>
+                <div class="hp-products-content-item-desc">提供选址决策、场内外客群洞察以及精准触达等服务，为合作伙伴赋能。</div>
+                <div class="hp-products-content-item-opts">
+                    <a href="https://retail.baidu.com/?hmsr=%E7%BB%9F%E8%AE%A1%E9%9B%B6%E5%94%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88&hmpl=%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88&hmcu=&hmkw=&hmci=" target="_blank"><span>了解详情</span><em></em></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="hp-whole-row hp-feature">
+        <div class="hp-row-content hp-feature-detail">
+            <div class="hp-feature-title">
+                <div class="hp-first-title">全域用户行为分析平台</div>
+            </div>
+            <div id="hp-feature-platform-tab">
+                <div class="platform-tabs tabs">
+                    <ul>
+                        <li class="selected">分析云</li>
+                        <li>网站统计</li>
+                        <li>移动统计</li>
+                    </ul>
+                </div>
+                <div class="hp-whole-row-content hp-feature-detail platform-tab-contents tab-contents">
+                    <ul>
+                        <li>
+                            <div class="hp-feature-platform-item">
+                                <div class="hp-whole-row-content hp-feature-detail">
+                                    <div class="hp-feature-content" id="hp-feature-cloud-tab">
+                                        <div class="tabs">
+                                            <ul>
+                                                <li class="selected">
+                                                    <div class="hp-feature-item-title l hp-feature-item-attribute">用户画像</div>
+                                                    <div class="hp-feature-item-subtitle">用户画像提供多维度基础属性、到访意图及行业变化趋势，帮助用户洞悉目标群体，锁定热点走向，优化内容运营，并可通过全网分析洞察潜在流量，深度挖掘画像价值。</div>
+                                                </li>
+                                                <li class="hp-feature-small">
+                                                    <div class="hp-feature-item-title l hp-feature-item-model">模型升级</div>
+                                                    <div class="hp-feature-item-subtitle">多维度事件模型，灵活关联属性，细化用户行为，全面体现产品核心价值。用户标识体系升级，确保标识准确性、唯一性与稳定性，适配复杂业务分析场景。</div>
+                                                </li>
+                                                <li class="hp-feature-small">
+                                                    <div class="hp-feature-item-title l hp-feature-item-higer">高阶分析</div>
+                                                    <div class="hp-feature-item-subtitle">关联分析、行为流、自定义SQL查询，多种高阶分析功能深度结合业务模式，全面助力用户增长。</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-contents">
+                                            <ul>
+                                                <li><img src="/web/image/hp-feature-cloud-bg1.png?__v=1596019163464" alt="用户画像" /></li>
+                                                <li style="display:none"><img src="/web/image/hp-feature-cloud-bg2.png?__v=1596019163464" alt="模型升级" /></li>
+                                                <li style="display:none"><img src="/web/image/hp-feature-cloud-bg3.png?__v=1596019163464" alt="高阶分析" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="display:none">
+                            <div class="hp-feature-platform-item">
+                                <div class="hp-whole-row-content hp-feature-detail">
+                                    <div class="hp-feature-content" id="hp-feature-hm-tab">
+                                        <div class="tabs">
+                                            <ul>
+                                                <li class="selected">
+                                                    <div class="hp-feature-item-title l hp-feature-item-pro">百度推广</div>
+                                                    <div class="hp-feature-item-subtitle">无缝结合百度推广、衡量广告效果;转化质量度加分，低成本提升转化；转化漏斗细分，优化流程减少流失；为网站的精细化运营决策提供数据支持，进而有效提高企业的投资回报率。</div>
+                                                </li>
+                                                <li>
+                                                    <div class="hp-feature-item-title l hp-feature-item-seo">SEO</div>
+                                                    <div class="hp-feature-item-subtitle">独家获取百度搜索词，帮助您及时了解访客搜索意图；与搜索引擎抓取爬虫强合作，统计代码将网站页面实时推送至百度收录库，加速网站被检索到的速度，更早触达访客；网站速度诊断、SEO抓取建议等功能，帮助用户实时掌握SEO效果。</div>
+                                                </li>
+                                                <li class="hp-feature-small">
+                                                    <div class="hp-feature-item-title l hp-feature-item-pageclick">热力图</div>
+                                                    <div class="hp-feature-item-subtitle">全球首发免费智能热力图，通过点击热图发掘用户与网站的交互行为,帮助改善网站体验、降低用户流失、提升转化率。</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-contents">
+                                            <ul>
+                                                <li><img src="/web/image/hp-feature-hm-bg1.png?__v=1596019163464" alt="百度推广" /></li>
+                                                <li style="display:none"><img src="/web/image/hp-feature-hm-bg2.png?__v=1596019163464" alt="SEO" /></li>
+                                                <li style="display:none"><img src="/web/image/hp-feature-hm-bg3.png?__v=1596019163464" alt="热力图" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="display:none">
+                            <div class="hp-feature-platform-item">
+                                <div class="hp-whole-row-content hp-feature-detail">
+                                    <div class="hp-feature-content" id="hp-feature-mtj-tab">
+                                        <div class="tabs">
+                                            <ul>
+                                                <li class="selected">
+                                                    <div class="hp-feature-item-title l hp-feature-item-circle">可视化圈选</div>
+                                                    <div class="hp-feature-item-subtitle">可视化圈选埋点也叫框架埋点，它将手机APP的界面同步至电脑端，在电脑端以点击圈选的方式完成埋点，实现采集APP相应控件点击数据的效果。该埋点方式无技术门槛，适合产品运营使用，降低研发成本的同时还提高了效率。</div>
+                                                </li>
+                                                <li>
+                                                    <div class="hp-feature-item-title l hp-feature-item-custom">定制分析</div>
+                                                    <div class="hp-feature-item-subtitle">定制分析支持用户选择任何的站内维度和指标构成自定义报表，同时将该报表固化为每日生成的常规报表，拓展报告库。它是对已有常规统计报表的补充，同时通过灵活、自由组合维度和指标，可以轻松验证各种分析思路。</div>
+                                                </li>
+                                                <li>
+                                                    <div class="hp-feature-item-title l hp-feature-item-usergroup">用户分群</div>
+                                                    <div class="hp-feature-item-subtitle">用户分群是指通过多种组合纬度将用户细分为不同目标群体，并支持查看不同人群的数据表现，分析人群画像等。它在针对特定人群的特征分析、价值分析、营销管理等方面作用显著，是实现以用户为导向的精细化运营的重要功能。</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-contents">
+                                            <ul>
+                                                <li><img src="/web/image/hp-feature-mtj-bg1.png?__v=1596019163464" alt="可视化圈选" /></li>
+                                                <li style="display:none"><img src="/web/image/hp-feature-mtj-bg2.png?__v=1596019163464" alt="定制分析" /></li>
+                                                <li style="display:none"><img src="/web/image/hp-feature-mtj-bg3.png?__v=1596019163464" alt="用户分群" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+</div>
+
+<div class="hp-row hp-tec">
+    <div class="hp-row-content">
+        <div class="hp-tec-title">
+            <div class="hp-first-title">技术和产品优势</div>
+            <div class="hp-second-title">基于国际领先的大数据技术能力、百度海量的数据资源，倾情打造</div>
+        </div>
+        <div class="hp-tec-content">
+            <div class="hp-tec-item l">
+                <img src="/web/image/hp-use.png?__v=1596019163464" alt="极简接入" />
+                <div class="hp-tec-item-title">极简接入</div>
+                <div class="hp-tec-item-desc">零成本接入，辅以完备的指导说明，践行简单易用、即安即用的理念。</div>
+            </div>
+            <div class="hp-tec-item l">
+                <img src="/web/image/hp-perf.png?__v=1596019163464" alt="秒级响应" />
+                <div class="hp-tec-item-title">秒级响应</div>
+                <div class="hp-tec-item-desc">百度成熟的分布式计算框架、海量数据存储引擎等先进技术，数据秒级响应。</div>
+            </div>
+            <div class="hp-tec-item l">
+                <img src="/web/image/hp-stable.png?__v=1596019163464" alt="稳定性强" />
+                <div class="hp-tec-item-title">稳定性强</div>
+                <div class="hp-tec-item-desc">冷热双备、大规模服务器集群的稳定性保证，确保网站数据安全、稳定、实时。</div>
+            </div>
+            <div class="hp-tec-item l">
+                <img src="/web/image/hp-export.png?__v=1596019163464" alt="数据导出" />
+                <div class="hp-tec-item-title">数据导出</div>
+                <div class="hp-tec-item-desc">流量、消费与用户业务数据无缝对接, 开放数据支持用户自建数据平台。</div>
+            </div>
+            <div class="hp-tec-item l last">
+                <img src="/web/image/hp-resource.png?__v=1596019163464" alt="海量资源" />
+                <div class="hp-tec-item-title">海量资源</div>
+                <div class="hp-tec-item-desc">丰富的用户标签和大数据用户理解，助力用户洞察、人群精细化分组。</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="hp-row hp-typical-user">
+    <div class="hp-row-content">
+        <div class="hp-typical-user-title">
+            <div class="hp-first-title">典型用户</div>
+        </div>
+        <div class="hp-typical-user-content">
+            <div id="hp-typical-user-tab">
+                <div class="tabs">
+                    <ul>
+                        <li class="selected">7k7k小游戏</li>
+                        <li>PP视频</li>
+                        <li>站长之家</li>
+                    </ul>
+                </div>
+                <div class="tab-contents">
+                    <ul>
+                        <li>
+                            <div class="hp-typical-user-item">
+                                <div class="hp-typical-user-item-overview l">
+                                    <div class="hp-typical-user-item-img"><img src="/web/image/hp-typical-user-7k7k.png?__v=1596019163464" alt="7k7k" /></div>
+                                    <div class="hp-typical-user-item-corp">7k7k小游戏 COO</div>
+                                    <div class="hp-typical-user-item-name">刘学</div>
+                                </div>
+                                <div class="hp-typical-user-item-detail">
+                                    <div class="hp-typical-user-item-detail-title">“百度统计能够提供准确可靠的数据”</div>
+                                    <div class="hp-typical-user-item-detail-desc">百度统计不仅功能强大易用，更为重要的是提供安全稳定的服务和准确可靠的数据，这一点是其他任何一款统计工具无法比拟的。7k7k小游戏正是基于网站统计强大的功能和可靠的数据，不断优化网站，在内容优劣和布局的把控上更加得心应手。</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="display:none">
+                            <div class="hp-typical-user-item">
+                                <div class="hp-typical-user-item-overview l">
+                                    <div class="hp-typical-user-item-img"><img src="/web/image/hp-typical-user-pptv.png?__v=1596019163464" alt="7k7k" /></div>
+                                    <div class="hp-typical-user-item-corp">PP视频 网站产品负责人</div>
+                                    <div class="hp-typical-user-item-name">朱悦</div>
+                                </div>
+                                <div class="hp-typical-user-item-detail">
+                                    <div class="hp-typical-user-item-detail-title">“百度统计能够洞察全面的访客浏览行为及轨迹”</div>
+                                    <div class="hp-typical-user-item-detail-desc">百度统计为网站运营提供了非常精准的数据，使得我们最大化的了解了访客的浏览行为和点击习惯，为PPTV网络电视产品的更新提供了最给力最直观的数据支持，感谢网站统计团队！</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="display:none">
+                            <div class="hp-typical-user-item">
+                                <div class="hp-typical-user-item-overview l">
+                                    <div class="hp-typical-user-item-img"><img src="/web/image/hp-typical-user-chinaz.png?__v=1596019163464" alt="7k7k" /></div>
+                                    <div class="hp-typical-user-item-corp">站长之家 北分总经理</div>
+                                    <div class="hp-typical-user-item-name">邱松</div>
+                                </div>
+                                <div class="hp-typical-user-item-detail">
+                                    <div class="hp-typical-user-item-detail-title">“百度统计能够极大地提升使用者的运营能力”</div>
+                                    <div class="hp-typical-user-item-detail-desc">百度统计帮助了中国站长从不同角度去理解网站运营，将过去简单的“看流量”的习惯转变为“看懂流量”，极大地提升了使用者的运营能力。</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hp-typical-user-icons">
+            <img src="/web/image/typical-user-list.png?__v=1596019163464" alt="典型用户列表" />
+        </div>
+    </div>
+</div>
+
+<div class="hp-whole-row hp-start">
+    <div class="hp-whole-row-content hp-start-detail">
+        <div class="hp-start-title">点击一下，开始使用</div>
+        <div class="hp-start-opts">
+            <a href="/web/demo/overview/index?siteId=5503017" class="btn">体验 Demo</a>
+        </div>
+    </div>
+</div>
+
+
+
+            
+            <script id="LoginTemplate" type="text/template">
+                <div class="hp-dialog-close">
+                    <span>✖</span>
+                </div>
+                <div id="LoginContainer" class="login-dialog">
+                    <div class="login-dialog-title">
+                        <p>欢迎来到百度统计</p>
+                    </div>
+                    <div id="LoginMain" class="ico-login clearfix">
+                        <div class="visitor-login-tab" id="LoginTab">请输入查看密码</div>
+                        <div id="LoginInput" class="login-input">
+                            <form method="post" action="">
+                                <input type="hidden" value="0" id="Appid" name="appid">
+                                <div class="form-item">
+                                    <input type="password" class="client-password-input" id="Client_Password" name="passwd" style="ime-mode: disabled" placeholder="请输入查看密码" />
+                                </div>
+                                <div class="error-msg-row">
+                                    if (this.errMsg) {
+                                    <div id="ErrorTip" class="error">#{this.errMsg}</div>
+                                    }
+                                    <div class="error" id="ErrorNoSubmit" style="display: none;">
+                                    </div>
+                                </div>
+                                <div class="form-buttons">
+                                    <input type="submit" id="Client_Submit" class="login-btn l" value="登录" />
+                                </div>
+                                <div class="login-help-row">
+                                    <a href="#{this.loginUrl}" id="change_tj_login_type" class="l">切换到管理员登录</a>
+                                </div>
+                                <input type="hidden" value="utf-8" name="charset" />
+                                <input type="hidden" value="1" name="senderr" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </script>
+
+            <script id="RegisterTemplate" type="text/template">
+                <div class="hp-dialog-close">
+                    <span>✖</span>
+                </div>
+                <div class="register-dialog">
+                    <div class="register-dialog-title">
+                        <p>注册百度统计帐号</p>
+                    </div>
+                    <div class="register-dialog-content">
+                        <ul>
+                            <li>
+                                <a href="#{this.webMasterRegister}" target="_blank">
+                                    <span class="register-dialog-item-type">百度统计-站长版</span><span class="register-dialog-item-comment">（适合媒体站长用户）</span><em></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#{this.customRegister}" target="_blank">
+                                    <span class="register-dialog-item-type">百度统计-客户版</span><span class="register-dialog-item-comment">（适合百度推广用户）</span><em></em>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="#{this.mtjRegister}" target="_blank">
+                                    <span class="register-dialog-item-type">百度统计-移动统计</span><span class="register-dialog-item-comment">（适合移动应用开发者）</span><span class="register-dialog-item-comment2">（百度用户帐号可直接登录）</span><em></em>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </script>
+
+            
+            <!-- 内容区块结束 -->
+        </div>
+    </div>
+    
+    <footer class="cpu-footer cpu-footer-complex">
+        <div class="cpu-footer-content">
+            <ul class="cpu-footer-nav">
+                <li>
+                    <h4>产品与服务</h4>
+                    <ul>
+                        <li><a href="/web/welcome/basic">网站统计</a></li>
+                        <li><a href="https://mtj.baidu.com ">移动统计</a></li>
+                        <li><a href="/web/welcome/analytics">分析云</a></li>
+                        <li><a href="https://retail.baidu.com/?hmsr=%E7%BB%9F%E8%AE%A1%E9%9B%B6%E5%94%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88footer&hmpl=footer&hmcu=&hmkw=&hmci=" target="_blank">零售解决方案</a></li>
+                        <li><a href="https://tongji.baidu.com/open/" target="_blank">统计开放平台</a></li>
+                        <li><a href="https://tongji.baidu.com/research/site?hmsr=%E7%BB%9F%E8%AE%A1footer%E9%93%BE%E6%8E%A5&hmpl=footer&hmcu=footer&hmkw=&hmci=footer" target="_blank">流量研究院</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>文档中心</h4>
+                    <ul>
+                        <li><a href="/web/image/%E7%99%BE%E5%BA%A6%E5%8F%91%E5%B8%83%E3%80%8A%E7%BD%91%E7%AB%99%E5%88%86%E6%9E%90%E7%99%BD%E7%9A%AE%E4%B9%A6V3.0%E3%80%8B.pdf" target="_blank">百度统计白皮书</a></li>
+                        <li><a href="https://tongji.baidu.com/api/manual/" target="_blank">网站统计API手册</a></li>
+                        <li><a href="https://tongji.baidu.com/analytics-manual/" target="_blank">分析云产品手册</a></li>
+                        <li><a href="https://tongji.baidu.com/web/help/article?id=314&type=0" target="_blank">服务协议</a></li>
+                        <li><a href="https://tongji.baidu.com/web/help/article?id=330&type=0" target="_blank">隐私政策</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>关于我们</h4>
+                    <div><a href="/web/help/article?id=276&type=0">联系我们</a></div>
+                </li>
+                <li>
+                    <h4>营销服务</h4>
+                    <ul>
+                        <li><a href="https://www2.baidu.com/" target="_blank">广告投放平台</a></li>
+                        <li><a href="https://cdp.baidu.com/" target="_blank">观星盘</a></li>
+                        <li><a href="https://aifanfan.baidu.com/" target="_blank">爱番番</a></li>
+                        <li><a href="https://fuwu.baidu.com/" target="_blank">营销服务市场</a></li>
+                        <li><a href="https://yingxiao.baidu.com/" target="_blank">百度营销中心</a></li>
+                    </ul>
+                </li>
+                <li class="cpu-footer-extra">
+                    <h4>营销服务热线</h4>
+                    <ul>
+                        <li>售前电话：400-800-8888</li>
+                        <li>售后电话：400-921-9999</li>
+                    </ul>
+                </li>
+                <li class="cpu-footer-qrcode">
+                    <h4>扫描关注二维码</h4>
+                    <figure><img src="/web/image/hp-qr.png?__v=1596019163464" alt="扫描关注二维码" width="112" height="112" /></figure>
+                </li>
+            </ul>
+            <div class="cpu-footer-copyright">
+                ©2020 Baidu <a
+                    href="https://www.baidu.com/duty/" target="_blank"
+                >使用百度前必读</a> <a
+                    target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001"
+                >京公网安备11000002000001号</a> 互联网信息服务许可 我已阅读并接受<a
+                    href="http://e.baidu.com/accept.html" target="_blank"
+                >百度推广服务合同</a> 欢迎访问<a
+                    href="http://rules.baidu.com/userpolicy?castk=71df4ab76c73cb563d267" target="_blank"
+                >百度推广政策中心</a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="/web/js/common.js?__v=1596019163464" type="text/javascript"></script>
+    
+
+    
+    <script type="text/javascript">
+        $.holmes = $.holmes || {};
+        $.holmes.config = $.holmes.config || {};
+
+        $.extend($.holmes.config, {"systemConfig":{"domain":"tongji.baidu.com","protocol":"https:","webRoot":"\/web","baseUri":"\/web","ajaxUri":"\/web\/ajax\/post","memoUri":"\/web\/common\/memo","trackUri":"\/web\/stat\/index","demoUri":"\/web\/demo\/overview\/index?siteId=5503017","oldVersionUrl":"\/hm-web\/home\/welcome","now":1596204236000,"hmJsFootCode":"<script>\nvar _hmt = _hmt || [];\n(function() {\n  var hm = document.createElement(\"script\");\n  hm.src = \"https:\/\/hm.baidu.com\/hm.js?41fc030db57d5570dd22f78997dc4a7e\";\n  var s = document.getElementsByTagName(\"script\")[0]; \n  s.parentNode.insertBefore(hm, s);\n})();\n<\/script>","imageSaveUri":"\/web\/amfphp\/gateway.php","imageSaveMethod":"ImageSaver.save","unionUrl":"http:\/\/union.baidu.com\/client\/#\/","ucApiUrl":"https:\/\/cas.baidu.com\/staticv2\/dep\/common-login\/api.js","analyticsBaseUri":"\/analytics"},"pageInfo":{"title":"\u767e\u5ea6\u7edf\u8ba1","topicUri":"http:\/\/yingxiao.baidu.com\/zhuanti\/list\/23.html","helpUri":"\/web\/home\/user\/help","logoutUri":"\/web\/welcome\/logout","demoUri":"\/web\/demo\/overview\/index?siteId=5503017","passport_domain":"https:\/\/passport.baidu.com","passport_reg_url":"https:\/\/passport.baidu.com\/v2\/?reg&tpl=holmes_maa&u=","passport_cdn":"https:\/\/ss0.bdstatic.com\/5LMZfyabBhJ3otebn9fN2DJv","passport_returnurl":"\/welcome\/psp","analyticsApplyUri":"\/web\/welcome\/apply","errMsg":"","userName":"","fromUrl":"https:\/\/tongji.baidu.com\/web\/welcome\/uc","bannerList":[{"id":"410","imgSrc":"https:\/\/analytics-public.cdn.bcebos.com\/image\/48mroj2dd91586398976050.png","imgSrc2":"https:\/\/analytics-public.cdn.bcebos.com\/image\/48mroj2dd91586398976050@2x.png","jumpUri":"http:\/\/yingxiao.baidu.com\/new\/home\/product\/details?id=6837"},{"id":"411","imgSrc":"https:\/\/analytics-public.cdn.bcebos.com\/image\/92ol2d295j1585708230890.png","imgSrc2":"https:\/\/analytics-public.cdn.bcebos.com\/image\/92ol2d295j1585708230890@2x.png","jumpUri":"http:\/\/yingxiao.baidu.com\/new\/home\/product\/details?id=6814&ly=author_essay"},{"id":"412","imgSrc":"https:\/\/analytics-public.cdn.bcebos.com\/image\/4hmcpksgj61572333617326.png","imgSrc2":"https:\/\/analytics-public.cdn.bcebos.com\/image\/4hmcpksgj61572333617326@2x.png","jumpUri":"https:\/\/tongji.baidu.com\/research\/site?hmsr=tongjibanner"},{"id":"413","imgSrc":"https:\/\/tongji.baidu.com\/static\/images\/1aftgfjxg4p1561528214368.png","imgSrc2":"https:\/\/tongji.baidu.com\/static\/images\/1aftgfjxg4p1561528214368@2x.png","jumpUri":"https:\/\/tongji.baidu.com\/web\/welcome\/analytics"},{"id":"414","imgSrc":"https:\/\/tongji.baidu.com\/static\/images\/6lb82xc3wn1547110226444.png","imgSrc2":"https:\/\/tongji.baidu.com\/static\/images\/6lb82xc3wn1547110226444@2x.png","jumpUri":"https:\/\/mtj.baidu.com\/web\/welcome\/media?detail=13"}],"textBannerList":[{"id":"13","title":"\u79fb\u52a8\u7edf\u8ba1\u5168\u65b0\u63a8\u51faAPP\u7aef\u70ed\u529b\u56fe","desc":"\u501f\u52a9\u70ed\u529b\u56fe\uff0c\u53ef\u4ee5\u76f4\u89c2\u5730\u89c2\u5bdf\u5230\u7528\u6237\u7684\u603b\u4f53\u8bbf\u95ee\u60c5\u51b5\u548c\u70b9\u51fb\u504f\u597d","jumpUri":"https:\/\/mtj.baidu.com\/web\/welcome\/media?detail=3"},{"id":"14","title":"\u767e\u5ea6\u7edf\u8ba1\u5206\u6790\u4e91\u5e73\u53f0\u5168\u65b0\u4e0a\u7ebf","desc":"\u6570\u636e\u91c7\u96c6\u3001\u63a5\u5165\u3001\u5efa\u6a21\u3001\u5e94\u7528\u7684\u6574\u4f53\u5206\u6790\u89e3\u51b3\u65b9\u6848","jumpUri":"https:\/\/tongji.baidu.com\/web\/welcome\/media?detail=25"},{"id":"15","title":"\u767e\u5ea6\u7edf\u8ba1\u7528\u6237\u4e13\u4eab\u798f\u5229\uff01","desc":"\u9650\u65f6\u514d\u8d39\u9886\u53d6\u201c\u7f51\u7ad9+\u5c0f\u7a0b\u5e8f\u201d\u4e94\u5408\u4e00\u5efa\u7ad9\u7cfb\u7edf","jumpUri":"https:\/\/aipage.bce.baidu.com\/huodongtongji"}],"ucslJsUrl":"cas.baidu.com\/ucsl\/ucsl.js","typicalUsers":[{"name":"\u7231\u4e3d","url":"http:\/\/27.cn\n","id":"login-typical-1"},{"name":"\u6c7d\u8f66\u4e4b\u5bb6","url":"http:\/\/www.autohome.com.cn\/\n","id":"login-typical-2"},{"name":"\u767e\u5408\u7f51","url":"http:\/\/www.baihe.com\/\n","id":"login-typical-3"},{"name":"\u66b4\u98ce\u5f71\u97f3","url":"http:\/\/www.baofeng.com\/\n","id":"login-typical-4"},{"name":"bianews.com","url":"http:\/\/www.bianews.com\/\n","id":"login-typical-5"},{"name":"\u6613\u8f66\u7f51","url":"http:\/\/www.bitauto.com\/\n","id":"login-typical-6"},{"name":"\u8584\u8377\u65f6\u5c1a","url":"http:\/\/www.bh5.com\/\n","id":"login-typical-7"},{"name":"\u8d22\u7ecf\u7f51","url":"http:\/\/www.caijing.com.cn\/\n","id":"login-typical-8"},{"name":"\u8f66\u8baf\u7f51","url":"http:\/\/www.chexun.com\/\n","id":"login-typical-9"},{"name":"\u6218\u7565\u7f51","url":"http:\/\/www.chinaiiss.com\/\n","id":"login-typical-10"},{"name":"\u4e2d\u56fd\u65b0\u95fb\u7f51","url":"http:\/\/www.chinanews.com\/\n","id":"login-typical-11"},{"name":"\u7ad9\u957f\u4e4b\u5bb6","url":"http:\/\/www.chinaz.com\/\n","id":"login-typical-12"},{"name":"\u5f3a\u56fd\u7f51","url":"http:\/\/www.chn2007.com\/\n","id":"login-typical-13"},{"name":"21CN","url":"http:\/\/www.21cn.com\/\n","id":"login-typical-14"},{"name":"\u5e93\u5df4\u7f51","url":"http:\/\/www.coo8.com\/\n","id":"login-typical-15"},{"name":"\u591a\u73a9\u6e38\u620f","url":"http:\/\/www.duowan.com\/\n","id":"login-typical-16"},{"name":"www.e23.cn","url":"http:\/\/www.e23.cn\/\n","id":"login-typical-17"},{"name":"\u827a\u9f99","url":"http:\/\/www.elong.com\/\n","id":"login-typical-18"},{"name":"www.espnstar.com.cn","url":"http:\/\/www.espnstar.com.cn\/\n","id":"login-typical-19"},{"name":"\u8d76\u96c6","url":"http:\/\/www.ganji.com\/\n","id":"login-typical-20"},{"name":"\u5149\u660e\u7f51","url":"http:\/\/www.gmw.cn\/\n","id":"login-typical-21"},{"name":"\u6d77\u9a6c\u82f9\u679c\u52a9\u624b","url":"http:\/\/www.haima.me\/\n","id":"login-typical-22"},{"name":"\u5b89\u5353\u7f51","url":"http:\/\/www.hiapk.com\/\n","id":"login-typical-23"},{"name":"\u5e7b\u5251\u4e66\u76df","url":"http:\/\/hjsm.tom.com\/\n","id":"login-typical-24"},{"name":"\u7ea2\u8896\u6dfb\u9999","url":"http:\/\/www.hongxiu.com\/\n","id":"login-typical-25"},{"name":"\u73af\u7403\u7f51","url":"http:\/\/www.huanqiu.com\/\n","id":"login-typical-26"},{"name":"\u805a\u7f8e\u4f18\u54c1","url":"http:\/\/www.jumei.com\/\n","id":"login-typical-28"},{"name":"\u8003\u7814\u7f51","url":"http:\/\/www.kaoyan.com\/\n","id":"login-typical-29"},{"name":"\u7231\u4e50\u6d3b","url":"http:\/\/www.leho.com\/\n","id":"login-typical-31"},{"name":"12580.com","url":"http:\/\/www.12580.com\/\n","id":"login-typical-32"},{"name":"19\u697c","url":"http:\/\/www.19lou.com\/\n","id":"login-typical-33"},{"name":"265G","url":"http:\/\/www.265g.com\/\n","id":"login-typical-34"},{"name":"\u65e0\u5fe7\u8003\u7f51","url":"http:\/\/www.51test.net\/\n","id":"login-typical-35"},{"name":"\u6211\u7231\u8d2d\u7269\u7f51","url":"http:\/\/www.55bbs.com\/\n","id":"login-typical-36"},{"name":"7k7k\u5c0f\u6e38\u620f\u4e16\u754c","url":"http:\/\/www.7k7k.com\/\n","id":"login-typical-37"},{"name":"\u4e5d\u9177\u97f3\u4e50\u7f51","url":"http:\/\/www.9ku.com\/\n","id":"login-typical-38"},{"name":"\u7c73\u5c14\u7f51","url":"http:\/\/www.miercn.com\/\n","id":"login-typical-39"},{"name":"91.com","url":"http:\/\/www.91.com\/\n","id":"login-typical-40"},{"name":"\u6635\u56fe\u7f51","url":"http:\/\/www.nipic.com\/\n","id":"login-typical-41"},{"name":"\u592a\u5e73\u6d0b\u6c7d\u8f66\u7f51","url":"http:\/\/www.pcauto.com.cn\/\n","id":"login-typical-42"},{"name":"pcbeta","url":"http:\/\/www.pcbeta.com\/\n","id":"login-typical-43"},{"name":"\u592a\u5e73\u6d0b\u6e38\u620f\u7f51","url":"http:\/\/www.pcgames.com.cn\/\n","id":"login-typical-44"},{"name":"PPTV","url":"http:\/\/www.pptv.com\/\n","id":"login-typical-45"},{"name":"\u5343\u5343\u9759\u542c","url":"http:\/\/www.qianqian.com\/\n","id":"login-typical-46"},{"name":"\u9a71\u52a8\u4e4b\u5bb6","url":"http:\/\/www.mydrivers.com\/\n","id":"login-typical-47"},{"name":"\u641c\u5916\u7f51","url":"http:\/\/www.seowhy.com\/\n","id":"login-typical-48"},{"name":"\u70e7\u9ea6\u7f51","url":"http:\/\/www.shaomy.com\/\n","id":"login-typical-49"},{"name":"6\u4eba\u6e38","url":"http:\/\/www.6renyou.com\/\n","id":"login-typical-50"},{"name":"\u5927\u516c\u7f51","url":"http:\/\/www.takungpao.com\/\n","id":"login-typical-51"},{"name":"\u7535\u73a9\u5df4\u58eb","url":"http:\/\/www.tgbus.com\/\n","id":"login-typical-52"},{"name":"\u5929\u6daf\u793e\u533a","url":"http:\/\/www.tianya.cn\/\n","id":"login-typical-53"},{"name":"\u94c1\u8840\u7f51","url":"http:\/\/www.tiexue.net\/\n","id":"login-typical-54"},{"name":"web\u5f00\u53d1\u7f51","url":"http:\/\/www.cncms.com\/\n","id":"login-typical-55"},{"name":"WPS","url":"http:\/\/www.wps.cn\/\n","id":"login-typical-56"},{"name":"\u7231\u5361\u6c7d\u8f66","url":"http:\/\/www.xcar.com.cn\/\n","id":"login-typical-57"},{"name":"\u65b0\u4e1c\u65b9","url":"http:\/\/www.xdf.cn\/\n","id":"login-typical-58"},{"name":"\u6c7d\u8f66\u70b9\u8bc4\u7f51","url":"http:\/\/www.xgo.com.cn\/\n","id":"login-typical-59"},{"name":"\u7279\u6b65","url":"http:\/\/www.xtep.com.cn\/\n","id":"login-typical-60"},{"name":"\u65b0\u519b\u4e8b","url":"http:\/\/www.xinjunshi.com\/\n","id":"login-typical-61"},{"name":"\u5929\u6781\u7f51","url":"http:\/\/www.yesky.com\/\n","id":"login-typical-62"},{"name":"\u97f3\u60a6\u53f0","url":"http:\/\/www.yinyuetai.com\/\n","id":"login-typical-63"},{"name":"YOKA","url":"http:\/\/www.yoka.com\/\n","id":"login-typical-64"},{"name":"\u9010\u6d6a\u7f51","url":"http:\/\/www.zhulang.com\/\n","id":"login-typical-65"},{"name":"\u5bb6\u6709\u6c47","url":"http:\/\/www.jyh.com","id":"login-typical-66"},{"name":"\u9177\u72d7","url":"http:\/\/www.kugou.com","id":"login-typical-67"},{"name":"\u8695\u8c46\u7f51","url":"http:\/\/candou.com","id":"login-typical-69"}],"companySizeList":[{"id":1,"label":"50\u4eba\u4ee5\u5185"},{"id":2,"label":"50\u4eba-500\u4eba"},{"id":3,"label":"500\u4eba-5000\u4eba"},{"id":4,"label":"5000\u4eba\u4ee5\u4e0a"}],"positionList":[{"id":1,"label":"CEO\u6216\u516c\u53f8\u8d1f\u8d23\u4eba"},{"id":2,"label":"VP\/\u603b\u76d1"},{"id":3,"label":"\u7ecf\u7406"},{"id":4,"label":"\u4e00\u7ebf\u4ea7\u54c1\u7ecf\u7406"},{"id":5,"label":"\u4e00\u7ebf\u5e02\u573a\u4eba\u5458"},{"id":6,"label":"\u4e00\u7ebf\u7814\u53d1\u4eba\u5458"},{"id":7,"label":"\u5b66\u751f\/\u5b9e\u4e60\u751f"},{"id":8,"label":"\u5176\u4ed6"}],"budgetList":[{"id":1,"label":"1\u4e07-5\u4e07"},{"id":2,"label":"5\u4e07-10\u4e07"},{"id":3,"label":"10\u4e07-20\u4e07"},{"id":4,"label":"20\u4e07\u4ee5\u4e0a"}],"hasMessage":true}}, true);
+    </script>
+    
+
+<script type="text/javascript">
+    VAR = {
+        webMasterRegister: "https://u.baidu.com/ucweb/?module=Reguser&controller=reg&action=index&appid=12&nexturl=https%3A%2F%2Ftongji.baidu.com%2Fweb%2Fwelcome%2Flogin%3FloginDialog%3D1",
+        customRegister: "https://u.baidu.com/ucweb/?module=Reguser&controller=reg&action=index&appid=3",
+        mtjRegister: "https://passport.baidu.com/v2/?reg&tpl=holmes_maa&u=https%3A%2F%2Fmtj.baidu.com%2Fweb%2Fwelcome%2Fpsp",
+        union_forget: "http://union.baidu.com/findPassword!input.action",
+        shifen_forget: "https://aq.baidu.com/new/#/findpwd",
+        uc_forget: "https://aq.baidu.com/new/#/findpwd",
+        waiting_img_src: "/web/img/loadingImage.gif",
+        app_id: "0",
+        errMsg: "",
+        loginUrl: "/web/welcome/login",
+        loginAction: "https://cas.baidu.com/?action=login",
+        userName: "",
+        authCode: "https://cas.baidu.com/?action=image&key=1596204236",
+        registerUrl: "/web/register",
+        isIco: "0",
+        webmasterUserNum: "",
+        customerUserNum: "",
+        mtjUserNum: "",
+        showLoginDialog: ""
+    };
+</script>
+    <script src="/web/js/homepage_layout.js?__v=1596019163464" type="text/javascript"></script>
+    <script src="https://cas.baidu.com/staticv2/dep/common-login/api.js"></script>
+    
+<script type="text/javascript">
+    (function (b) {
+        var a = new Image,
+            r = Math.floor(2147483648 * Math.random()),
+            c = "hm_log_" + r;
+        window[c] = a;
+        a.onload = a.onerror = a.onabort = function () {
+            a.onload = a.onerror = a.onabort = null;
+            a = window[c] = null
+        };
+        a.src = b + '&rnd=' + r
+    })('https://hm.baidu.com/hm.gif?si=8bf70e5be5342c861009cc16a78b1584&et=0&nv=0&st=4&v=pixel-1.0');
+    window.location = 'https://tongji.baidu.com/';
+</script>
+<script src="/web/js/login.js?__v=1596019163464" type="text/javascript"></script>
+
+</body>
+</html>
