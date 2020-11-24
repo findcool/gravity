@@ -3,7 +3,7 @@
 
 import requests
 
-url = 'http://127.0.0.1/index.php'
+url = 'http://192.168.100.80/index.php'
 
 def submit(flag):
     flag = flag.split('@')
