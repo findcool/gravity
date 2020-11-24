@@ -47,6 +47,7 @@ for length in range(1,99):
         start_time = datetime.now()
         try:
             # result = req.post(url=curl, data=data, headers=headers, cookies=cookies)
+            # postdata = "&".join("%s=%s" % (k,v) for k,v in data.items())
             result = req.post(url=curl, data=data, headers=headers)
         except expression as identifier:
             continue

