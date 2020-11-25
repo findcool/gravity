@@ -1,0 +1,15 @@
+a.php:.png
+
+a.<
+a.<<<
+a.>>>
+a.>><
+
+---
+
+a.php.
+s.php. .
+
+---
+
+a.php::$DATA
